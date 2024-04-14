@@ -27,6 +27,10 @@
     width: 90%;
     margin: auto;
 }
+.w80{
+    width: 80%;
+    margin: auto;
+}
 .w95s{
     @include max(768){
         width: 95% !important;
@@ -62,15 +66,15 @@
         padding: 0 5px;
     }
     &.-double{
-        border: 4px double $site-color01;
+        border: 4px double $site-color02;
         @include min(768){
-            border: 7px double $site-color01;
+            border: 7px double $site-color02;
         }
     }
     &.-solid{
-        border: 1px solid $site-color01;
+        border: 1px solid $site-color02;
         @include min(768){
-            border: 1px solid $site-color01;
+            border: 1px solid $site-color02;
         }
     }
 }

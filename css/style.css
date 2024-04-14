@@ -2714,6 +2714,11 @@ button.swiper-pagination-bullet {
   margin: auto;
 }
 
+.w80 {
+  width: 80%;
+  margin: auto;
+}
+
 @media (768px >= width) {
   .w95s {
     width: 95% !important;
@@ -2754,19 +2759,19 @@ button.swiper-pagination-bullet {
   padding: 0 5px;
 }
 .c-borderBox.-double {
-  border: 4px double #ad722f;
+  border: 4px double #462e2e;
 }
 @media (width >= 768px) {
   .c-borderBox.-double {
-    border: 7px double #ad722f;
+    border: 7px double #462e2e;
   }
 }
 .c-borderBox.-solid {
-  border: 1px solid #ad722f;
+  border: 1px solid #462e2e;
 }
 @media (width >= 768px) {
   .c-borderBox.-solid {
-    border: 1px solid #ad722f;
+    border: 1px solid #462e2e;
   }
 }
 
@@ -3786,7 +3791,6 @@ button.swiper-pagination-bullet {
   color: #cfaa2a;
   font-weight: bold;
   pointer-events: none;
-  filter: drop-shadow(1px 1px 0px hsla(0, 0%, 0%, 0.322));
   pointer-events: none;
 }
 .c-hnav__content li a.-active span, .c-hnav__content li label.-active span {
@@ -4171,11 +4175,6 @@ button.swiper-pagination-bullet {
   position: relative;
   overflow: hidden;
 }
-@media (768px >= width) {
-  .c-contents.-f-view .imgBox {
-    opacity: 0.75;
-  }
-}
 .c-contents.-f-view .c-contentsBox {
   position: absolute;
 }
@@ -4513,6 +4512,9 @@ button.swiper-pagination-bullet {
 .c-contents_title.-location::before {
   content: "SURROUNDING ENVIRONMENT";
   white-space: nowrap;
+}
+.c-contents_title.-koutsu::before {
+  content: "TRAFFIC";
 }
 .c-contents_title.-spot::before {
   content: "RECOMMENDED SPOTS";

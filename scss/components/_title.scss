@@ -66,7 +66,8 @@
 
     &.-deilyUse{&::before{content: "DAILY USE";}}                                   // 周辺環境
     &.-access{&::before{content: "ACCESS";}}                                        // アクセス
-    &.-location{&::before{content: "SURROUNDING ENVIRONMENT"; white-space: nowrap;}}// 交通
+    &.-location{&::before{content: "SURROUNDING ENVIRONMENT"; white-space: nowrap;}}// ロケーション
+    &.-koutsu{&::before{content: "TRAFFIC";}}                                        // 交通
     &.-spot{&::before{content: "RECOMMENDED SPOTS"; white-space: nowrap;}}          // スポット
     &.-portfolio{&::before{content: "CONSTRUCTION PORTFOLIO"; white-space: nowrap;}}// 施工例
     &.-owner{&::before{content: "OWNER VOICE"; white-space: nowrap;}}               // オーナー

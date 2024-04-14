@@ -123,7 +123,7 @@
 					font-weight: bold;
 					pointer-events: none;
 					span{color: $site-color03;}
-					filter: drop-shadow(1px 1px 0px hsla(0, 0%, 0%, 0.322));
+					// filter: drop-shadow(1px 1px 0px hsla(0, 0%, 0%, 0.322));
 					pointer-events: none;
 					&::after{
 						content: "";
