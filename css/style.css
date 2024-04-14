@@ -4398,6 +4398,12 @@ button.swiper-pagination-bullet {
     z-index: 1;
   }
 }
+.c-contents.-imgBg .c-contentsBox.-cv {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
 
 .c-contents_title {
   position: relative;
