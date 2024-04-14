@@ -3800,7 +3800,7 @@ button.swiper-pagination-bullet {
   content: "";
   position: absolute;
   top: 50%;
-  left: -8%;
+  left: -14px;
   transform: translateY(-50%);
   width: 12px;
   height: 12px;
@@ -3810,7 +3810,7 @@ button.swiper-pagination-bullet {
 }
 @media (width >= 768px) {
   .c-hnav__content li a.-active::after, .c-hnav__content li label.-active::after {
-    left: -6%;
+    left: -12px;
     width: 10px;
     height: 10px;
   }
@@ -3818,14 +3818,13 @@ button.swiper-pagination-bullet {
 @media (width >= 1200px) {
   .c-hnav__content li a.-active::after, .c-hnav__content li label.-active::after {
     top: 47%;
-    left: -12%;
+    left: -17px;
     width: 15px;
     height: 15px;
   }
 }
 @media (width >= 1400px) {
   .c-hnav__content li a.-active::after, .c-hnav__content li label.-active::after {
-    left: -8%;
     width: 13px;
     height: 13px;
   }
@@ -4139,7 +4138,7 @@ button.swiper-pagination-bullet {
   .c-contents.-f-slider .c-contentsBox.-f-logo {
     top: 50%;
     left: 80%;
-    width: 33%;
+    width: 25%;
   }
 }
 @media (width >= 1400px) {
